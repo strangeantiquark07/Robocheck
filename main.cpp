@@ -13,6 +13,7 @@ int main()
     char ultrasonicSensor;
     char irSensor;
     char imuSensor;
+    string operatorName;
 
     bool robotReady = true;
 
@@ -20,7 +21,10 @@ int main()
     cout << "          ROBOCHECK v1.0" << endl;
     cout << "     Robot Pre-Run Diagnostics" << endl;
     cout << "====================================" << endl;
+    cout << "\nEnter operator name: ";
 
+    cout << "\nEnter operator name: ";
+    cin >> operatorName;
     // Basic power check
     cout << "\nEnter battery level (%): ";
     cin >> batteryLevel;
@@ -53,7 +57,7 @@ int main()
 
     cout << "Is the IMU responding? (y/n): ";
     cin >> imuSensor;
-
+    cout << "\nOperator: " << operatorName << endl;
 
     cout << "\n------ DIAGNOSTIC REPORT ------" << endl;
 
