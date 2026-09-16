@@ -68,7 +68,7 @@ int main()
     }
     else
     {
-        cout << "Battery           : LOW" << endl;
+        cout << "Battery           : CRITICAL - DO NOT DEPLOY" << endl;
         robotReady = false;
     }
 
