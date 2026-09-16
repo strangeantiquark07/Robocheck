@@ -138,7 +138,7 @@ int main()
     }
 
 
-    cout << "\n------ FINAL STATUS ------" << endl;
+    cout << "\n------ ROBOT READINESS ------" << endl;
 
     if (robotReady)
     {
