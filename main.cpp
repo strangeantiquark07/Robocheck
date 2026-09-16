@@ -67,8 +67,7 @@ int main()
         cout << "Battery           : OK" << endl;
     }
     else
-    {
-        cout << "Battery           : LOW - RECHARGE REQUIRED" << endl;
+    {cout << "Battery           : LOW - RECHARGE BEFORE DEPLOYMENT" << endl;
         robotReady = false;
     }
 
