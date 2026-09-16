@@ -24,6 +24,12 @@ int main()
     // Basic power check
     cout << "\nEnter battery level (%): ";
     cin >> batteryLevel;
+    // Battery percentage must remain within its valid range.
+    if (batteryLevel < 0 || batteryLevel > 100)
+{
+    cout << "Invalid battery level. Enter a value between 0 and 100." << endl;
+    return 1;
+}
 
     // Drive system checks
     cout << "Is the left motor responding? (y/n): ";
