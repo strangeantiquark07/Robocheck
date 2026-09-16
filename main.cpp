@@ -18,10 +18,10 @@ int main()
     bool robotReady = true;
 
     cout << "====================================" << endl;
-    cout << "          ROBOCHECK v1.0" << endl;
+    cout << "          ROBOCHECK v2.0" << endl;
     cout << "     Robot Pre-Run Diagnostics" << endl;
     cout << "====================================" << endl;
-    cout << "\nEnter operator name: ";
+    
 
     cout << "\nEnter operator name: ";
     cin >> operatorName;
