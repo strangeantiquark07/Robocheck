@@ -18,3 +18,10 @@ robot unsafe or unreliable to operate.
 
 This project is being developed incrementally using Git for version
 control, branching, testing and release management.
+## Releases
+
+### v1.0
+Initial RoboCheck release with basic battery, motor and emergency-stop diagnostics.
+
+### v2.0
+Extended RoboCheck with sensor-health diagnostics, improved battery validation and additional diagnostic improvements.
